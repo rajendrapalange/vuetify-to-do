@@ -7,12 +7,6 @@ export default new Vuex.Store({
   state: {
     search: null,
     tasks: [
-      {
-        id: 1,
-        title: 'test',
-        show: true,
-        dueDate: '2021-01-01'
-      }
     ],
     snackbar: {
       show: false,
